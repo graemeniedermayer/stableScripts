@@ -8,4 +8,4 @@ Uses google mediapipe to remove background https://google.github.io/mediapipe/
 Uses opencv contour finding function to find largest contours in the image.
 
 ## rembg
-Can do clothing segmentation and/or background removal.
+Can do clothing segmentation and/or background removal https://github.com/danielgatis/rembg
