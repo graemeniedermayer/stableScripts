@@ -66,7 +66,7 @@ def create_tangent_normal(normal, depthmap, depthmap_resize, smooth_tangent = Tr
     reduced_depth = np.array(Image.fromarray(depthmap).resize(depthmap_resize))
     # reduced_normal = np.array(Image.fromarray(normal).resize(depthmap_resize))
 
-    scale_factor = 2
+    scale_factor = 1/0.2 # scale from normalmap inverse
     depth_scale =  scale_factor*np.max(depthmap)
 
     reduced_depth_height_length = 1/ depthmap_resize[1]
